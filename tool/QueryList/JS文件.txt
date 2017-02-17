@@ -1,0 +1,43 @@
+                var AA = ce("a");
+                AA.className = "q" + (6 - parseInt(B.name.charAt(0)));
+                AA.style.fontFamily = "Verdana, sans-serif";
+                AA.href = this.template.getItemLink(B);
+                ae(AA, ct(B.chinese));
+                var AAText = ce("span");
+                AAText.innerHTML='中文：';
+                ae(D, AAText);
+                ae(D, AA);
+
+                var brText = ce("br");
+                ae(D, brText);
+
+                var A = ce("a");
+                A.className = "q" + (6 - parseInt(B.name.charAt(0)));
+                A.style.fontFamily = "Verdana, sans-serif";
+                A.href = this.template.getItemLink(B);
+                ae(A, ct(B.name.substring(1)));
+                var AText = ce("span");
+                AText.innerHTML='英文：';
+                ae(D, AText);
+                ae(D, A);
+
+
+0,1,2,3,4,5,6,-3,7,8:
+                var AA = ce("a");
+                AA.style.fontFamily = "Verdana, sans-serif";
+                AA.href = this.template.getItemLink(C);
+                var AAText = ce("span");
+                AAText.innerHTML='中文：';
+                ae(A, AAText);
+                ae(A, ct(C.chinese));
+
+                var brText = ce("br");
+                ae(A, brText);
+
+                var A = ce("a");
+                A.style.fontFamily = "Verdana, sans-serif";
+                A.href = this.template.getItemLink(C);
+                var AText = ce("span");
+                AText.innerHTML='英文：';
+                ae(A, AText);
+                ae(A, ct(C.name));
